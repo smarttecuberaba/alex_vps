@@ -6,7 +6,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY api_agente.py .
-COPY .env .
+# COPY .env .
 
 EXPOSE 5000
 
